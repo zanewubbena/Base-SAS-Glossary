@@ -1,7 +1,7 @@
 # Base SAS Glossary
 
 
-[Source: Base SAS Glossary](https://support.sas.com/documentation/cdl/en/mastergl/62860/HTML/default/viewer.htm#glossary.htm)
+[Source Document](https://support.sas.com/documentation/cdl/en/mastergl/62860/HTML/default/viewer.htm#glossary.htm)
 
 
 ## A
