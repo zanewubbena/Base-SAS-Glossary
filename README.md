@@ -2,7 +2,7 @@
 
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
-##A##
+## A
 
 access descriptor
     a SAS/ACCESS file that describes data that is managed by SAS, by a database management system, or by a PC-based software application such as Microsoft Excel, Lotus 1-2-3, or dBASE. After creating an access descriptor, you can use it as the basis for creating one or more view descriptors. See also SAS/ACCESS view and view descriptor. 
@@ -88,7 +88,7 @@ automatic macro variable
 automatic variable
     a variable that is created automatically by the DATA step, some DATA step statements, some SAS procedures, and the SAS macro facility. 
 
-##B##
+## B
 
 backward compatibility
     the ability of a SAS client that runs a particular version of SAS (such as SAS 9 or SAS 8) to read, write, and update a SAS file that was created using an earlier version of SAS (such as SAS 6) as long as the client's application does not implement new features such as long names. The SAS client and application that run the later version are said to be backward compatible with the SAS file that was created using the earlier version. See also forward compatibility. 
@@ -159,7 +159,7 @@ BY variable
 BY-group processing
     the process of using the BY statement to process observations that are ordered, grouped, or indexed according to the values of one or more variables. Many SAS procedures and the DATA step support BY-group processing. For example, you can use BY-group processing with the PRINT procedure to print separate reports for different groups of observations in a single SAS data set. 
 
-##C##
+## C
 
 calculated column
     in a query, a column that does not exist in any of the tables that are being queried, but which is created as a result of a column expression. See also column expression. 
@@ -362,7 +362,7 @@ cumulative frequency
 cumulative percent
     the percentage of observations in all ranges up to and including a given range. 
 
-##D##
+## D
 
 data control block
     on IBM mainframe operating systems such as z/OS and OS/390, a storage area that contains information about the physical characteristics of an operating system data set. Short form: DCB. 
@@ -532,7 +532,7 @@ dummy macro
 duration
     a value that represents the difference, in elapsed time or days, between any two time or date values. 
 
-##E##
+## E
 
 EBCDIC collating sequence
     the rules that are used by a specific EBCDIC encoding for sorting textual data. Sort order is determined by the location of each code point in the code page of an EBCDIC encoding. For example, in the German EBCDIC code page, the sort order of precedence is punctuation characters, numbers, uppercase characters, and lowercase characters. Because the German uppercase letter Ä (code point 4A) precedes lowercase g (code point 87), Ä is sorted before g. See also collating sequence. 
@@ -576,7 +576,7 @@ Extensible Markup Language
 external file
     a file that is created and maintained by a host operating system or by another vendor's software application. SAS can read data from and route output to external files. External files can contain raw data, SAS programming statements, procedure output, or output that was created by the PUT statement. A SAS data set is not an external file. See also fileref. 
 
-##F##
+## F
 
 field
     in an external file, the smallest logical unit of data. See also file and record.
@@ -650,7 +650,7 @@ function key
 fuzz factor
     a value that is used when other values are being compared or evaluated in order to offset potential errors that can result from numerical imprecision. If a value does not match or fall within a range exactly but is within the range of the fuzz factor, then the value is considered a match. For example, if an expression evaluates whether a value is greater than or equal to 2.0, and a fuzz factor of .0001 has been specified, then any value that is greater than or equal to 1.9999 would cause the expression to evaluate as true. 
 
-##G##
+## G
 
 general integrity constraint
     an integrity constraint that enables you to restrict the values of variables within a single file. There are four types of general integrity constraints: check, not null, unique, and primary key. See also integrity constraints, primary key integrity constraint, and referential integrity constraint. 
@@ -670,7 +670,7 @@ gigabyte
 global macro variable
     a macro variable that can be referenced in either global or local scope in a SAS program, except where there is a local macro variable that has the same name. A global macro variable exists until the end of the session or program. See also local macro variable. 
 
-##H##
+## H
 
 header
     1) textual information at the top of either a report, a page, a table, or a table column that identifies or categorizes the information in the report, page, table, or table column. 2) part of an Internet protocol message, such as a MIME message or an HTTP message, that provides information about the message. Headers are created by Internet applications and are used to identify users and to debug Internet message problems. 
@@ -696,7 +696,7 @@ HTML
 HyperText Markup Language
     a coding system in which the codes indicate the layout and style of the text in a text file. Other HTML codes enable you to embed electronic objects such as images, sounds, video streams, and applets (small software applications) into HTML documents. All Web browsers can process HTML documents. Short form: HTML.
 
-##I##
+## I
 
 I/O-bound application
     an application whose performance is constrained by the speed at which data can be delivered for processing. Multiple CPUs, partitioned I/O, threading technology, RAID (redundant array of independent disks) technology, or a combination of these can alleviate this problem. 
@@ -773,7 +773,7 @@ ISO 8859 family
 item store
     a SAS data set that consists of pieces of information that can be accessed independently. The contents of an item store are organized in a directory tree structure, which is similar to the directory structures that are used by UNIX System Services or by Windows. For example, a particular value might be stored and located using a directory path (root_dir/sub_dir/value). The SAS Registry is an example of an item store. See also template store. 
 
-##J##
+## J
 
 job stream
     a series of related programs that are run in a prescribed order. 
@@ -784,7 +784,7 @@ join
 join criteria
     the set of parameters that determine how tables are to be joined. Join criteria are usually specified in a WHERE expression or in an SQL ON clause. See also join and outer join. 
 
-##K##
+## K
 
 key variable
     (1) a variable that is used to index SAS data sets. (2) in table lookup applications, a variable that resides in both the primary file and the lookup file. The values of the key variable are the common elements between the files. Typically, key values are unique in the lookup file but are not necessarily unique in the primary file. 
@@ -798,7 +798,7 @@ kilobyte
 kurtosis
     a measure of the "heaviness of the tails" of a distribution relative to the normal distribution, which has a kurtosis of zero. 
 
-##L##
+## L
 
 label, variable
     up to 256 characters of descriptive text that can be printed in the output by certain procedures instead of, or in addition to, the variable name. 
@@ -884,7 +884,7 @@ lookup result
 lookup table
     See automatic lookup table. 
     
-##M##
+## M
 
 macro
     a SAS catalog entry that contains a group of compiled program statements and stored text. 
@@ -1015,7 +1015,7 @@ multitasking
 multi-threading
     See threading.
 
-##N##
+## N
 
 name-style macro
     a macro that is named and defined with the %MACRO statement. See also command-style macro and statement-style macro.
@@ -1077,7 +1077,7 @@ numeric value
 numeric variable
     a variable that contains only numeric values and related symbols, such as decimal points, plus signs, and minus signs. By default, SAS stores all numeric variables in floating-point representation. 
 
-##O##
+## O
 
 observation
     a row in a SAS data set. All of the data values in an observation are associated with a single entity such as a customer or a state. Each observation contains either one data value or a missing-value indicator for each variable. 
@@ -1160,7 +1160,7 @@ overhead
 overprint character
     the character that is printed when two or more plotting symbols have the same print position. In most procedures, the default overprint character is the at sign (@). 
 
-##P##
+## P
 
 packed decimal data
     a method of encoding decimal numbers in which each byte represents two decimal digits. See also zoned decimal data.
@@ -1330,7 +1330,7 @@ propagation of missing values
 pull-down menu
     the list of menu items or choices that appears when you choose an item from a menu bar or from another menu. See also PMENU facility and pop-up menu. 
 
-##Q##
+## Q
 
 quantile
     any of the points or values that divide data into groups that contain equal numbers of observations, or any of those groups. Quartiles, quintiles, and percentiles are all examples of quantiles. 
@@ -1350,7 +1350,7 @@ quoting
 quoting function
     a macro language function that performs quoting on its argument. 
 
-##R##
+## R
 
 RAID
     See redundant array of independent disks. 
@@ -1445,7 +1445,7 @@ RTF destination
 RTS
     See row title space. 
 
-##S##
+## S
 
 sampling with replacement
     a method of taking a sample that allows you to select an item more than once. 
@@ -1753,7 +1753,7 @@ System Management Facility
 system option
     See SAS system option. 
 
-##T##
+## T
 
 table alias
     a temporary, alternate name for a table that is specified in a FROM clause. Table aliases are optionally used to qualify column names when tables are joined. 
@@ -1878,7 +1878,7 @@ two-dimensional array
 two's complement arithmetic
     a type of arithmetic based on the binary system that determines how the computer represents signed numbers. 
 
-##U##
+## U
 
 Unicode
     a 16-bit encoding that supports the interchange, processing, and display of characters and symbols from dozens of writing systems, for a total of up to 65,536 characters. Unicode includes all characters from most modern written languages as well as characters from some historical languages. 
@@ -1913,7 +1913,7 @@ user-written informat
 user-written procedure
     a procedure written in C, PL/I, FORTRAN, or IBM 370 assembler language using SAS/TOOLKIT software. See also SAS procedure.
 
-##V##
+## V
 
 variable
     a column in a SAS data set or in a SAS data view. The data values for each variable describe a single characteristic for all observations. Each SAS variable can have the following attributes: name, data type (character or numeric), length, format, informat, and label. 
@@ -1930,7 +1930,7 @@ view
 view descriptor
     a file created by SAS/ACCESS software that defines part or all of the database management system (DBMS) data or PC file data that is described by an access descriptor. The access descriptor describes the data in a single DBMS table, DBMS view, or PC file. See also access descriptor. 
 
-##W##
+## W
 
 WHERE clause
     one or more WHERE expressions used in a WHERE statement, a WHERE function, or a WHERE= data set option. See also WHERE expression.
@@ -1959,7 +1959,7 @@ Work library
 workdays data set
     in the CALENDAR procedure, a SAS data set that defines workshifts that are named in a calendar data set. Each variable in the workdays data set contains one daily schedule of alternating work and nonwork periods. See also calendar data set. 
 
-##X##
+## X
 
 XML
     See Extensible Markup Language. 
@@ -1973,12 +1973,12 @@ XMLMap
 XPORT engine
     the SAS transport engine. This engine accesses SAS files in transport format. See also transport engine and transport format.
 
-##Y##
+## Y
 
 youngest version
     the historical version of a data set that is chronologically closest to the base version in a generation group. See also base version, generation data set, generation group, and historical version. 
 
-##Z##
+## Z
 
 zoned decimal data
     a method of encoding decimal numbers in which each digit requires one byte of storage. The last byte contains the number's sign as well as the last digit. See also packed decimal data. 
