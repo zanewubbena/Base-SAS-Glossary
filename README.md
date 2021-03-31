@@ -1,8 +1,10 @@
 # Base SAS Glossary
 
-[Base SAS Glossary](https://support.sas.com/documentation/cdl/en/mastergl/62860/HTML/default/viewer.htm#glossary.htm)
 
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+[Base SAS Glossary](https://support.sas.com/documentation/cdl/en/mastergl/62860/HTML/default/viewer.htm#glossary.htm)
+
 
 ## A
 
