@@ -1,4 +1,4 @@
-# Base SAS Glossary
+# SAS Base Glossary
 
 
 [Source Document](https://support.sas.com/documentation/cdl/en/mastergl/62860/HTML/default/viewer.htm#glossary.htm)
